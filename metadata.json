@@ -1,0 +1,6 @@
+{
+  "name": "TerraSentinel AI",
+  "description": "Evidence-first geospatial intelligence system for detecting and verifying candidate open-pit quarry and mining land disturbance from Sentinel-2 satellite observations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

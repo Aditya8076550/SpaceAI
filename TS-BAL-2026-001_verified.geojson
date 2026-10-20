@@ -1,0 +1,78 @@
+{
+  "type": "FeatureCollection",
+  "name": "TerraSentinel_TS-BAL-2026-001",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "TS-BAL-2026-001",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.91,
+              15.206
+            ],
+            [
+              76.99,
+              15.206
+            ],
+            [
+              76.99,
+              15.134
+            ],
+            [
+              76.91,
+              15.134
+            ],
+            [
+              76.91,
+              15.206
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "caseId": "TS-BAL-2026-001",
+        "districtId": "district-ballari",
+        "districtName": "Ballari (Bellary) District",
+        "jurisdiction": "Survey of India / Karnataka Mines & Geology Dept (Census 2011 Unit)",
+        "category": "Candidate land disturbance consistent with possible quarry expansion",
+        "footprintRelation": "UNINVENTORIED_CANDIDATE",
+        "areaHectares": 0.64,
+        "areaSquareMeters": 6400,
+        "areaCalculationMethod": "Geodesic ellipsoidal polygon quadrature (WGS 84 / EPSG:4326)",
+        "reviewPriorityScore": 95,
+        "permitStatus": "Unknown (State Cadastre unlinked)",
+        "reviewStatus": "UNREVIEWED",
+        "reviewerNotes": null,
+        "reviewerName": null,
+        "reviewedAt": null,
+        "isDemoCase": false,
+        "spectralShift": {
+          "deltaNDVI": -1.197,
+          "deltaBSI": 0.865,
+          "deltaNDMI": -0.22
+        },
+        "observationT1": {
+          "date": "2023-02-25T05:34:46Z",
+          "sceneId": "S2A_43PFS_20230225_0_L2A",
+          "cloudCover": 1.2
+        },
+        "observationT2": {
+          "date": "2024-02-25T05:34:48Z",
+          "sceneId": "S2B_43PFS_20240225_0_L2A",
+          "cloudCover": 0.06
+        },
+        "detectorVersion": "TerraSentinel-BSI-v1.4",
+        "disclaimer": "Candidate land disturbance for investigation purposes only. Does not constitute proof of legal violation or unauthorized quarrying without ground audit."
+      }
+    }
+  ]
+}
